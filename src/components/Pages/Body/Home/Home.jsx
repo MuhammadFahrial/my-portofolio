@@ -3,6 +3,8 @@ import pic from "../../../../assets/home-pic.png";
 import facebook from "../../../../assets/facebook.png";
 import instagram from "../../../../assets/instagram.png";
 import github from "../../../../assets/github.png";
+import linkedin from "../../../../assets/linkedin.png";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -22,22 +24,37 @@ export default function Home() {
             until now I really like to learn all things related to computers
             such as graphic design, programming etc.
           </p>
-          <div className="xl:text-left pt-4 xl:pt-0">
-            <button className=" bg-[#00E0FF] text-black px-4 py-2 font-normal rounded-[6px] mt-2 text-[16px] ">
-              Our Services
-            </button>
+          <div className="mt-2 xl:text-left pt-4 xl:pt-0 xl:mt-6">
+            <NavLink
+              className=" bg-[#00E0FF] text-black px-4 py-2 font-normal rounded-[6px] mt-2 text-[16px]"
+              to="/contact"
+            >
+              Let's Talk
+            </NavLink>
           </div>
           <div className="mt-4 flex gap-1 xl:absolute xl:bottom-[32px]">
-            <a href="">
-              <img src={facebook} alt="" />
+            <a
+              href="https://www.linkedin.com/in/a-muh-fahrial-68407a221/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="" />
             </a>
 
-            <a href="">
+            <a
+              href="https://www.instagram.com/muhammad_fachrial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               <img src={instagram} alt="" />
             </a>
 
-            <a href="">
+            <a
+              href="https://github.com/MuhammadFahrial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={github} alt="" />
             </a>
           </div>
