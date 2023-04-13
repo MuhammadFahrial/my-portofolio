@@ -7,6 +7,7 @@ export default function Contact() {
   const [inputEmail, setInputEmail] = useState("");
   const [inputMessage, setInputMessage] = useState("");
 
+  // fungsi untuk mengambil hasil inputan
   const handleInputName = (event) => {
     setInputName(event.target.value);
   };
@@ -15,6 +16,17 @@ export default function Contact() {
   };
   const handleInputMessage = (event) => {
     setInputMessage(event.target.value);
+  };
+
+  // fungsi untuk kondisi inputan
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (!inputName || !inputMessage) {
+      alert("Please fill in both the name and message fields");
+      return;
+    }
+    const whatsappUrl = `https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`;
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -35,7 +47,7 @@ export default function Contact() {
               </p>
             </div>
             <div className="right-side flex gap-1 text-[14px]">
-              <form action="">
+              <form action="" onSubmit={handleSubmit}>
                 <div className="name-mail xl:flex gap-12">
                   <input
                     type="text"
@@ -67,14 +79,12 @@ export default function Contact() {
                     className="bg-[#061121] border-b p-2 outline-none text-[12px] mt-4 xl:mt-6"
                   />
                 </div>
-                <a
-                  href={`https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  type="submit"
                   className="bg-white text-black py-2 px-4 rounded-lg"
                 >
-                  Send to Whatsapp
-                </a>
+                  Send To Whatsapp
+                </button>
               </form>
             </div>
           </div>
