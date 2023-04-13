@@ -41,16 +41,12 @@ export default function Navbar() {
         <div className="text-sm lg:flex-grow">
           <NavLink
             to="/"
-            activeClassName="text-blue-500 border-b-2 border-blue-500 pb-2"
-            exact
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
           >
             Home
           </NavLink>
           <NavLink
             to="/portofolio/web"
-            activeClassName="text-blue-500 border-b-2 border-blue-500 pb-2"
-            exact
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
           >
             Portofolio
@@ -65,8 +61,6 @@ export default function Navbar() {
           </NavLink> */}
           <NavLink
             to="/contact"
-            activeClassName="text-blue-500 border-b-2 border-blue-500 pb-2"
-            exact
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
           >
             Contact

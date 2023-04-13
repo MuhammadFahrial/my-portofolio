@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import email from "../../../../assets/gmail.png";
 import phone from "../../../../assets/phone.png";
 
 export default function Contact() {
+  const [inputName, setInputName] = useState("");
+  const [inputEmail, setInputEmail] = useState("");
+  const [inputMessage, setInputMessage] = useState("");
+
+  const handleInputName = (event) => {
+    setInputName(event.target.value);
+  };
+  const handleInputEmail = (event) => {
+    setInputEmail(event.target.value);
+  };
+  const handleInputMessage = (event) => {
+    setInputMessage(event.target.value);
+  };
+
   return (
     <>
       <div className="contact my-8 xl:flex justify-between items-center h-full xl:my-32">
@@ -27,6 +41,8 @@ export default function Contact() {
                     type="text"
                     name="name"
                     id="name"
+                    value={inputName}
+                    onChange={handleInputName}
                     placeholder="Your Name"
                     className="bg-[#061121] border-b p-2 outline-none text-[12px]"
                   />
@@ -34,7 +50,9 @@ export default function Contact() {
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="yourmail@domain.com"
+                    value={inputEmail}
+                    onChange={handleInputEmail}
+                    placeholder="Yourmail@domain.com"
                     className="bg-[#061121] border-b p-2 outline-none text-[12px]"
                   />
                 </div>
@@ -43,17 +61,20 @@ export default function Contact() {
                     type="text"
                     name="message"
                     id="message"
-                    placeholder="Hello Bro......"
+                    value={inputMessage}
+                    onChange={handleInputMessage}
+                    placeholder="What do you want ......"
                     className="bg-[#061121] border-b p-2 outline-none text-[12px] mt-4 xl:mt-6"
                   />
                 </div>
-                <button
-                  type="submit"
-                  className="bg-white text-black py-1 px-4 rounded-lg
-                "
+                <a
+                  href={`https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-black py-2 px-4 rounded-lg"
                 >
-                  Send
-                </button>
+                  Send to Whatsapp
+                </a>
               </form>
             </div>
           </div>
@@ -63,7 +84,7 @@ export default function Contact() {
           </div>
           <div className="gmail flex items-center gap-6 mt-2 text-[14px]">
             <img src={email} alt="" />
-            <p>andimuhammadfahrials@gmail.com</p>
+            <p>a******@gmail.com</p>
           </div>
         </div>
       </div>
