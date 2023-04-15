@@ -18,7 +18,7 @@ export default function Contact() {
     setInputMessage(event.target.value);
   };
 
-  // fungsi untuk kondisi inputan
+  // fungsi untuk kondisi pda button
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!inputName || !inputMessage) {

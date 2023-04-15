@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 
 export default function Portofolio() {
@@ -25,7 +25,7 @@ export default function Portofolio() {
             <div className="right-side flex gap-1 text-[14px]">
               <NavLink
                 to="web"
-                className="border-solid bg-[#00E0FF] text-[#000] px-5 py-1"
+                className=" border-solid bg-[#00E0FF] text-[#000] px-5 py-1"
               >
                 Web
               </NavLink>
