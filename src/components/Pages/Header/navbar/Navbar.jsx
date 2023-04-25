@@ -38,7 +38,7 @@ export default function Navbar() {
           isMenuOpen ? "block" : "hidden"
         } lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow">
+        <div className="text-sm lg:flex ">
           <NavLink
             to="/"
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
@@ -66,6 +66,15 @@ export default function Navbar() {
             Contact
           </NavLink>
         </div>
+        <a
+          download
+          href="https://drive.google.com/file/d/1WEZouW0L8Gg4gtCsdWzeuKiioLVVcnOB/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2 text-black bg-[#ffffff] block mt-4 lg:inline-block lg:mt-0 hover:bg-[#00E0FF] mr-4 text-sm rounded-sm"
+        >
+          Download CV
+        </a>
       </div>
     </nav>
   );

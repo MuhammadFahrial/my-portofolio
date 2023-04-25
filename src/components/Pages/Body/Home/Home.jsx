@@ -31,6 +31,7 @@ export default function Home() {
             >
               Let's Talk
             </NavLink>
+            
           </div>
           <div className="mt-4 flex gap-1 xl:absolute xl:bottom-[32px]">
             <a

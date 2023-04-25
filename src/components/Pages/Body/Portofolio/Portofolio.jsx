@@ -25,19 +25,19 @@ export default function Portofolio() {
             <div className="right-side flex gap-1 text-[14px]">
               <NavLink
                 to="web"
-                className=" border-solid bg-[#00E0FF] text-[#000] px-5 py-1"
+                className=" border-solid bg-[#fdfdfd] text-[#000] px-5 py-1"
               >
                 Web
               </NavLink>
               <NavLink
                 to="ui/ux"
-                className="border-solid bg-[#00E0FF] text-[#000] px-5 py-1"
+                className="border-solid bg-[#ffffff] text-[#000] px-5 py-1"
               >
                 UI/UX
               </NavLink>
               <NavLink
                 to="3d-design"
-                className="border-solid bg-[#00E0FF] text-[#000] px-5 py-1"
+                className="border-solid bg-[#ffffff] text-[#000] px-5 py-1"
               >
                 3D Design
               </NavLink>
