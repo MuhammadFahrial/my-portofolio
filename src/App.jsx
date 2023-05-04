@@ -11,6 +11,7 @@ import Web from "./components/Pages/Body/Portofolio/Sub/Web";
 import Design3D from "./components/Pages/Body/Portofolio/Sub/Design3D";
 import UI_UX from "./components/Pages/Body/Portofolio/Sub/UI_UX";
 import Footer from "./components/Pages/Footer/Footer";
+import Motion from "./components/Pages/Body/Portofolio/Sub/Motion";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="web" element={<Web />} />
           <Route path="3d-design" element={<Design3D />} />
           <Route path="ui/ux" element={<UI_UX />} />
+          <Route path="motion-graphic" element={<Motion />} />
         </Route>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

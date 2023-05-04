@@ -26,6 +26,12 @@ import city2 from "./assets/3D/untitled.png";
 import building from "./assets/3D/untitled12.png";
 import room from "./assets/3D/untitleduhu.png";
 
+//Project Motion Graphic 2D
+import motion1 from "./assets/Motion/CV.mp4";
+import pizzaPrice from "./assets/Motion/PizzaPrice.mp4";
+import ProfileVideo from "./assets/Motion/ProfileVideo.mp4";
+import Gempa from "./assets/Motion/Gempa.mp4";
+
 // Export Project Web
 export const projectWeb = [
   {
@@ -129,4 +135,12 @@ export const design3D = [
   { image: city2 },
   { image: building },
   { image: room },
+];
+
+//Project Video
+export const motionGraphic = [
+  { video: motion1 },
+  { video: pizzaPrice },
+  { video: ProfileVideo },
+  { video: Gempa },
 ];

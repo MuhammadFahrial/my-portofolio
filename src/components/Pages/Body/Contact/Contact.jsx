@@ -94,7 +94,7 @@ export default function Contact() {
           </div>
           <div className="gmail flex items-center gap-6 mt-2 text-[14px]">
             <img src={email} alt="" />
-            <p>a******@gmail.com</p>
+            <p>andimuhammadfahrials@gmail.com</p>
           </div>
         </div>
       </div>

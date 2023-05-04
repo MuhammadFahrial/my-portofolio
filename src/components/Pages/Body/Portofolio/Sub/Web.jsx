@@ -20,7 +20,7 @@ export default function Web() {
                 <Card
                   title={title}
                   image={image}
-                  description={description}
+                  // description={description}
                   techStack={techStack}
                   previewLink={previewLink}
                   githubLink={githubLink}

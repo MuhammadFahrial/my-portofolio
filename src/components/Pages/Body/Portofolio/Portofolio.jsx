@@ -41,6 +41,12 @@ export default function Portofolio() {
               >
                 3D Design
               </NavLink>
+              <NavLink
+                to="motion-graphic"
+                className="border-solid bg-[#ffffff] text-[#000] px-5 py-1"
+              >
+                Motion Graphic
+              </NavLink>
             </div>
           </div>
           <Outlet />
