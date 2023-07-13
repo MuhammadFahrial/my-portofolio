@@ -22,7 +22,7 @@ export default function Portofolio() {
                 inspire and assist you in achieving your goals.
               </p>
             </div>
-            <div className="right-side flex gap-1 text-[14px]">
+            <div className="right-side flex gap-1 text-[12px]">
               <NavLink
                 to="web"
                 className=" border-solid bg-[#fdfdfd] text-[#000] px-5 py-1"
@@ -39,13 +39,13 @@ export default function Portofolio() {
                 to="3d-design"
                 className="border-solid bg-[#ffffff] text-[#000] px-5 py-1"
               >
-                3D Design
+                3D
               </NavLink>
               <NavLink
                 to="motion-graphic"
                 className="border-solid bg-[#ffffff] text-[#000] px-5 py-1"
               >
-                Motion Graphic
+                Motion
               </NavLink>
             </div>
           </div>
