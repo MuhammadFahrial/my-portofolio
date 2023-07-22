@@ -78,7 +78,7 @@ export default function Home() {
           to my clients.
         </p>
         <div className="flex justify-center flex-wrap gap-8">
-          <div className="web-dev px-10 py-6 bg-[#0B2345] xl:w-1/5">
+          <div className="web-dev px-6 py-6 bg-[#0B2345] xl:w-1/5">
             <img src={webDev} alt="" className="pb-4" />
             <h1 className="text-[18px]">Web Development</h1>
             <p className="text-[14px] font-light pt-2">
@@ -86,7 +86,7 @@ export default function Home() {
               error odio optio.
             </p>
           </div>
-          <div className="web-design px-10 py-6 bg-[#0B2345] xl:w-1/5">
+          <div className="web-design px-6 py-6 bg-[#0B2345] xl:w-1/5">
             <img src={webDesign} alt="" className="pb-4" />
             <h1 className="text-[18px]">Web Design</h1>
             <p className="text-[14px] font-light pt-2">
@@ -94,7 +94,7 @@ export default function Home() {
               error odio optio.
             </p>
           </div>
-          <div className="video-editing px-10 py-6 bg-[#0B2345] xl:w-1/5">
+          <div className="video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5">
             <img src={vidEdit} alt="" className="pb-4" />
             <h1 className="text-[18px]">Video Editing</h1>
             <p className="text-[14px] font-light pt-2">
