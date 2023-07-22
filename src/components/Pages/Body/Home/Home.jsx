@@ -78,8 +78,8 @@ export default function Home() {
           to my clients.
         </p>
         <div className="flex justify-center flex-wrap gap-8">
-          <div className="web-dev px-4 py-6 bg-[#0B2345] xl:w-1/5 text-center">
-            <img src={webDev} alt="" className="pb-4 block mr-auto ml-auto" />
+          <div className="web-dev px-4 py-6 bg-[#0B2345] xl:w-1/5">
+            <img src={webDev} alt="" className="pb-4" />
             <h1>Web Development</h1>
             <p className="text-[14px] font-light">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
