@@ -71,7 +71,7 @@ export default function Home() {
       </div>
       <div className="xl:border-2 xl:px-10 py-6 mb-8 rounded-xl">
         <h1 className="text-center text-[28px] xl:text-[38px] font-bold">
-          Our <span className="text-[#00E0FF]">Service</span>
+          Our <span className="text-[#00E0FF]">Services</span>
         </h1>
         <p className="text-center text-[16px] py-4 xl:text-[16px] xl:px-40 font-light">
           I am a dedicated individual committed to providing top-notch services
