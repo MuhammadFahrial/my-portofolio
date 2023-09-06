@@ -16,7 +16,7 @@ export default function UI_UX() {
           {React.Children.toArray(
             userInterface
               .slice(0, visibleImages)
-              .map(({ image }) => <Card image={image} />)
+              .map(({ image, link }) => <Card image={image} link={link} />)
           )}
         </div>
         {visibleImages < userInterface.length && (
