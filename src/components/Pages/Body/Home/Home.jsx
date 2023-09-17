@@ -60,7 +60,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={github} alt="" />
+              <img src={github} alt="" className="" />
             </a>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Home() {
           <img src={pic} className="xl:w-[28rem] w-[26rem]" />
         </div>
       </div>
-      <div className="xl:border-2 xl:px-10 py-6 mb-8 rounded-xl">
+      <div className="py-6 mb-8 rounded-xl">
         <h1 className="text-center text-[28px] xl:text-[38px] font-bold">
           Our <span className="text-[#00E0FF]">Services</span>
         </h1>
@@ -77,8 +77,8 @@ export default function Home() {
           I am a dedicated individual committed to providing top-notch services
           to my clients.
         </p>
-        <div className="flex justify-center flex-wrap gap-8">
-          <div className="web-dev px-6 py-6 bg-[#0B2345] xl:w-1/5">
+        <div className="flex justify-center flex-wrap gap-8 ">
+          <div className="web-dev px-6 py-6 bg-[#0B2345] xl:w-1/5 hover:bg-[#0e4b53]">
             <img src={webDev} alt="" className="pb-4" />
             <h1 className="text-[18px]">Web Development</h1>
             <p className="text-[14px] font-light pt-2">
@@ -86,7 +86,7 @@ export default function Home() {
               error odio optio.
             </p>
           </div>
-          <div className="web-design px-6 py-6 bg-[#0B2345] xl:w-1/5">
+          <div className="web-design px-6 py-6 bg-[#0B2345] xl:w-1/5 hover:bg-[#0e4b53]">
             <img src={webDesign} alt="" className="pb-4" />
             <h1 className="text-[18px]">Web Design</h1>
             <p className="text-[14px] font-light pt-2">
@@ -94,7 +94,7 @@ export default function Home() {
               error odio optio.
             </p>
           </div>
-          <div className="video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5">
+          <div className="video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5 hover:bg-[#0e4b53]">
             <img src={vidEdit} alt="" className="pb-4" />
             <h1 className="text-[18px]">Video Editing</h1>
             <p className="text-[14px] font-light pt-2">
