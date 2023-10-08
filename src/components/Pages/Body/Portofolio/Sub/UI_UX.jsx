@@ -3,7 +3,7 @@ import { userInterface } from "../../../../../details";
 import Card from "../../../../molekuls/CardUI";
 
 export default function UI_UX() {
-  const [visibleImages, setVisibleImages] = useState(3); // jumlah gambar
+  const [visibleImages, setVisibleImages] = useState(6); // jumlah gambar
 
   const handleViewMore = () => {
     setVisibleImages(visibleImages + 3); // menambahkan 3 gambar
