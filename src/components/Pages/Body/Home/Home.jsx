@@ -175,7 +175,7 @@ export default function Home() {
               className=" bg-[#00E0FF] text-black px-4 py-2 font-normal rounded-[24px] text-[16px] inline-block mt-4"
               to="/portofolio/ui/ux"
             >
-              `` Get Started
+              Get Started
             </NavLink>
           </div>
           <img src={iux} alt="" className="mb-16 mt-8" />
