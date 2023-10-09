@@ -8,6 +8,13 @@ import link from "./assets/Web/link.png";
 import commerce from "./assets/Web/commerce.png";
 import database from "./assets/Web/database.png";
 import movie from "./assets/Web/movie.png";
+// Logo
+import lhtml from "./assets/lhtml.png";
+import lcss from "./assets/lCSS3.png";
+import ljs from "./assets/lJavaScript.png";
+import lphp from "./assets/lPHP.png";
+import lreact from "./assets/lReact.png";
+import ltail from "./assets/lTailwindCSS.png";
 
 //Project Image Ui/Ux
 import androidapp1 from "./assets/Ui/AndroidApp.png";
@@ -41,6 +48,9 @@ export const projectWeb = [
     title: "Web Profile",
     image: porto1,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageHTML: lhtml,
+    imageCSS: lcss,
+    imageJS: ljs,
     techStack: "HTML, CSS, JS",
     previewLink: "https://me-portofolio.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/me-portofolio",
@@ -50,6 +60,8 @@ export const projectWeb = [
     title: "Web Profile",
     image: porto2,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageCSS: lcss,
     techStack: "React JS",
     previewLink: "https://react-porto.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/react-porto",
@@ -59,6 +71,8 @@ export const projectWeb = [
     title: "Login Page",
     image: login1,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageTail: ltail,
     techStack: "React JS, Tailwind",
     previewLink: "https://login-page-react-blush.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/login-page-react",
@@ -68,6 +82,8 @@ export const projectWeb = [
     title: "Login Page",
     image: login2,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imagePHP: lphp,
+    imageCSS: lcss,
     techStack: "PHP, CSS",
     previewLink: "-",
     githubLink: "https://github.com/MuhammadFahrial/login-regis-crud-php",
@@ -77,6 +93,9 @@ export const projectWeb = [
     title: "Link Tree",
     image: link,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageHTML: lhtml,
+    imageCSS: lcss,
+    imageJS: ljs,
     techStack: "HTML, CSS, JS",
     previewLink: "https://link-tree-eight.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/link-tree",
@@ -86,6 +105,9 @@ export const projectWeb = [
     title: "Suit Game",
     image: suit,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageHTML: lhtml,
+    imageCSS: lcss,
+    imageJS: ljs,
     techStack: "HTML, CSS, JS",
     previewLink: "-",
     githubLink: "https://github.com/MuhammadFahrial/suit-game",
@@ -95,6 +117,8 @@ export const projectWeb = [
     title: "E-Commerce",
     image: commerce,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageTail: ltail,
     techStack: "React JS, Taildwind",
     previewLink: "https://ecommerce-project-gules.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/ecommerce-project",
@@ -104,6 +128,8 @@ export const projectWeb = [
     title: "Movie List",
     image: movie,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageTail: ltail,
     techStack: "React JS, Tailwind",
     previewLink: "https://movie-project-indol.vercel.app/",
     githubLink: "https://github.com/MuhammadFahrial/movie-project",
@@ -113,6 +139,8 @@ export const projectWeb = [
     title: "Landing Page",
     image: database,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imagePHP: lphp,
+    imageCSS: lcss,
     techStack: "PHP, CSS",
     previewLink: "-",
     githubLink: "https://github.com/MuhammadFahrial/login-regis-crud-php",

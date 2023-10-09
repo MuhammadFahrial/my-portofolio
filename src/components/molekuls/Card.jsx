@@ -3,6 +3,12 @@ import React from "react";
 export default function Card({
   title,
   image,
+  imageHTML,
+  imageCSS,
+  imageJS,
+  imageReact,
+  imageTail,
+  imagePHP,
   description,
   techStack,
   previewLink,
@@ -17,9 +23,17 @@ export default function Card({
             {title}
           </h1>
           <p className="text-content pt-4 font-light">{description}</p>
-          <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+          {/* <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
             Tech Stack : <span className="font-light">{techStack}</span>
-          </h3>
+          </h3> */}
+          <div className="flex">
+            <img src={imageHTML} alt="" />
+            <img src={imageCSS} alt="" />
+            <img src={imageJS} alt="" />
+            <img src={imageReact} alt="" />
+            <img src={imageTail} alt="" />
+            <img src={imagePHP} alt="" />
+          </div>
           <div className="flex justify-between items-center mt-5">
             <div className="flex items-center">
               <svg

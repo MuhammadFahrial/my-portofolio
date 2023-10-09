@@ -91,7 +91,7 @@ export default function Contact() {
             </div>
             <div className="phone flex items-center gap-6 mb-2 mt-12 xl:mt-0 text-[14px]">
               <img src={phone} alt="" className="" />
-              <p>+6281342608949</p>
+              <p>+62813xxxxxxxx</p>
             </div>
             <div className="gmail flex items-center gap-6 mt-2 text-[14px]">
               <img src={email} alt="" />

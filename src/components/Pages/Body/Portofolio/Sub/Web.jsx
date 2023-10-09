@@ -20,6 +20,12 @@ export default function Web() {
                 ({
                   title,
                   image,
+                  imageHTML,
+                  imageCSS,
+                  imageJS,
+                  imageReact,
+                  imageTail,
+                  imagePHP,
                   // description,
                   techStack,
                   previewLink,
@@ -29,6 +35,12 @@ export default function Web() {
                     title={title}
                     image={image}
                     // description={description}
+                    imageHTML={imageHTML}
+                    imageCSS={imageCSS}
+                    imageJS={imageJS}
+                    imageReact={imageReact}
+                    imageTail={imageTail}
+                    imagePHP={imagePHP}
                     techStack={techStack}
                     previewLink={previewLink}
                     githubLink={githubLink}

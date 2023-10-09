@@ -158,7 +158,7 @@ export default function Home() {
               Get Started
             </NavLink>
           </div>
-          <img src={iweb} alt="" srcset="" className="mb-16 mt-8" />
+          <img src={iweb} alt="" className="mb-16 mt-8" />
         </div>
 
         <div className="xl:flex xl:flex-row-reverse items-center gap-10">
@@ -174,11 +174,11 @@ export default function Home() {
             <NavLink
               className=" bg-[#00E0FF] text-black px-4 py-2 font-normal rounded-[24px] text-[16px] inline-block mt-4"
               to="/portofolio/ui/ux"
-            >``
-              Get Started
+            >
+              `` Get Started
             </NavLink>
           </div>
-          <img src={iux} alt="" srcset="" className="mb-16 mt-8" />
+          <img src={iux} alt="" className="mb-16 mt-8" />
         </div>
 
         <div className="xl:flex items-center xl:py-36 gap-10">
@@ -198,7 +198,7 @@ export default function Home() {
               Get Started
             </NavLink>
           </div>
-          <img src={i3d} alt="" srcset="" className="mb-16 mt-8" />
+          <img src={i3d} alt="" className="mb-16 mt-8" />
         </div>
 
         <div className="xl:flex xl:flex-row-reverse items-center gap-10">
@@ -221,7 +221,6 @@ export default function Home() {
           <video
             src={motion}
             alt=""
-            srcset=""
             className="xl:w-1/2 mb-16  mt-8"
             controls
           />
