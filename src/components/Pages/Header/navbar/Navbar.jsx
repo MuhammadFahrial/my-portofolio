@@ -9,24 +9,26 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   }
 
-  const changeBackgroundColor = () => {
-    if (window.scroll > 10) {
-      setChangeColor(true);
-      console.log("berubah");
-    } else {
-      setChangeColor(false);
-    }
-  };
-
   useEffect(() => {
-    changeBackgroundColor();
+    const changeBackgroundColor = () => {
+      if (window.scrollY > 10) {
+        setChangeColor(true);
+        console.log("berubah");
+      } else {
+        setChangeColor(false);
+      }
+    };
 
     window.addEventListener("scroll", changeBackgroundColor);
   });
 
   return (
     <>
-      <div className={changeColor ? "color-active" : ""}>
+      <div
+        className={`navbar ${
+          changeColor ? "bg-[#061121] border-b border-slate-600" : ""
+        }`}
+      >
         <div className="px-[10%]">
           <nav className="flex items-center justify-between flex-wrap py-4">
             <div className="flex items-center flex-shrink-0 mr-6">
@@ -70,14 +72,7 @@ export default function Navbar() {
                 >
                   Portofolio
                 </NavLink>
-                {/* <NavLink
-            to="/about"
-            activeClassName="text-blue-500 border-b-2 border-blue-500 pb-2"
-            exact
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
-          >
-            About
-          </NavLink> */}
+
                 <NavLink
                   to="/contact"
                   className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#00E0FF] mr-4"
@@ -101,32 +96,3 @@ export default function Navbar() {
     </>
   );
 }
-
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// export default function Navbar() {
-//   return (
-//     <div className="flex justify-between py-4 ">
-//       <div className="Logo">
-//         <h1 className=" text-[22px] font-semibold">
-//           Porto<span className="text-[#00E0FF]">folio.</span>
-//         </h1>
-//       </div>
-//       <div className="flex justify-between gap-8 items-center font-normal text-[16px] ">
-//         <NavLink to="/" className="hover:text-[#00E0FF]">
-//           Home
-//         </NavLink>
-//         <NavLink to="/portofolio" className="hover:text-[#00E0FF]">
-//           Portofolio
-//         </NavLink>
-//         <NavLink to="/about" className="hover:text-[#00E0FF]">
-//           About
-//         </NavLink>
-//         <NavLink to="/contact" className="hover:text-[#00E0FF]">
-//           Contact
-//         </NavLink>
-//       </div>
-//     </div>
-//   );
-// }
