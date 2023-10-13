@@ -35,6 +35,7 @@ import city2 from "./assets/3D/untitled.png";
 import building from "./assets/3D/untitled12.png";
 import room from "./assets/3D/untitleduhu.png";
 import colorBlind from "./assets/3D/butawarna.png";
+import mirror from "./assets/3D/mirror.png";
 
 //Project Motion Graphic 2D
 import motion1 from "./assets/Motion/CV.mp4";
@@ -202,6 +203,7 @@ export const design3D = [
   { image: building },
   { image: room },
   { image: colorBlind },
+  { image: mirror },
 ];
 
 //Project Video
