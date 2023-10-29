@@ -25,8 +25,8 @@ export default function Contact() {
       alert("Please fill in both the name and message fields");
       return;
     }
-    const whatsappUrl = `https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`;
-    window.open(whatsappUrl, "_blank");
+    // const whatsappUrl = `https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`;
+    // window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -84,7 +84,7 @@ export default function Contact() {
                     type="submit"
                     className="bg-white text-black py-2 px-4 rounded-lg"
                   >
-                    Send To Whatsapp
+                    Send
                   </button>
                 </form>
               </div>
