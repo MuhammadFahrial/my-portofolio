@@ -16,7 +16,7 @@ export default function Card({
 }) {
   return (
     <>
-      <article className="overflow-hidden mt-5 border-solid border border-slate-800 stroke-white">
+      <article className=" glass-effect overflow-hidden mt-5 border-solid border border-slate-800 stroke-white">
         <img src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">
           <h1 className="dark:text-light-heading font-semibold text-lg pt-1">

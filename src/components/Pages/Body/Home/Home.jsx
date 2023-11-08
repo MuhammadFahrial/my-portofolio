@@ -102,7 +102,7 @@ export default function Home() {
             />
           </div>
           <div className="flex justify-center flex-wrap gap-4 ">
-            <div className="web-dev px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/2 hover:bg-[#0e4b53] rounded-lg">
+            <div className="glass-effect web-dev px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/2 hover:bg-[#0e4b53] rounded-lg">
               <img src={webDev} alt="" className="pb-4" />
               <h1 className="text-[18px]">Web Development</h1>
               <p className="text-[14px] font-light pt-2">
@@ -110,7 +110,7 @@ export default function Home() {
                 JavaScript, ReactJS and PHP.
               </p>
             </div>
-            <div className="web-design px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/3 hover:bg-[#0e4b53] rounded-lg">
+            <div className="glass-effect web-design px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/3 hover:bg-[#0e4b53] rounded-lg">
               <img src={webDesign} alt="" className="pb-4" />
               <h1 className="text-[18px]">UI / UX</h1>
               <p className="text-[14px] font-light pt-2">
@@ -118,7 +118,7 @@ export default function Home() {
                 Illustrator, Photoshop and Figma.
               </p>
             </div>
-            <div className="video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/3 hover:bg-[#0e4b53] rounded-lg">
+            <div className="glass-effect video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/3 hover:bg-[#0e4b53] rounded-lg">
               <img src={vidEdit} alt="" className="pb-4" />
               <h1 className="text-[18px]">Motion Graphic</h1>
               <p className="text-[14px] font-light pt-2">
@@ -126,7 +126,7 @@ export default function Home() {
                 using the Adobe After Effects application.
               </p>
             </div>
-            <div className="video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/2 hover:bg-[#0e4b53] rounded-lg">
+            <div className="glass-effect video-editing px-6 py-6 bg-[#0B2345] xl:w-1/5 md:w-1/2 hover:bg-[#0e4b53] rounded-lg">
               <img src={object} alt="" className="pb-4" />
               <h1 className="text-[18px]">3D Modeling</h1>
               <p className="text-[14px] font-light pt-2">

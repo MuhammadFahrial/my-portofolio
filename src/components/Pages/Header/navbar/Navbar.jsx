@@ -13,7 +13,7 @@ export default function Navbar() {
     const changeBackgroundColor = () => {
       if (window.scrollY > 10) {
         setChangeColor(true);
-        console.log("berubah");
+        // console.log("berubah");
       } else {
         setChangeColor(false);
       }
@@ -26,7 +26,7 @@ export default function Navbar() {
     <>
       <div
         className={`navbar ${
-          changeColor ? "bg-[#061121] border-b border-slate-600" : ""
+          changeColor ? "bg-[#390a65] border-b border-slate-600" : ""
         }`}
       >
         <div className="px-[10%]">
