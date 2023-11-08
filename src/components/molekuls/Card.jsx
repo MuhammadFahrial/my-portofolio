@@ -26,7 +26,7 @@ export default function Card({
           {/* <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
             Tech Stack : <span className="font-light">{techStack}</span>
           </h3> */}
-          <div className="flex">
+          <div className="flex w-8">
             <img src={imageHTML} alt="" />
             <img src={imageCSS} alt="" />
             <img src={imageJS} alt="" />

@@ -122,7 +122,8 @@ export const projectWeb = [
     imageTail: ltail,
     techStack: "React JS, Taildwind",
     previewLink: "https://ecommerce-project-gules.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/ecommerce-project",
+    githubLink:
+      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/fakestore_api_final_2",
   },
 
   {
@@ -133,7 +134,8 @@ export const projectWeb = [
     imageTail: ltail,
     techStack: "React JS, Tailwind",
     previewLink: "https://movie-project-indol.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/movie-project",
+    githubLink:
+      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/omdb_api_final_4",
   },
 
   {
