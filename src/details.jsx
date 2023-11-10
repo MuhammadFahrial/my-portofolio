@@ -9,6 +9,7 @@ import commerce from "./assets/Web/commerce.png";
 import database from "./assets/Web/database.png";
 import movie from "./assets/Web/movie.png";
 import currency from "./assets/Web/currency.png";
+import news from "./assets/Web/news.png";
 
 // Logo
 import lhtml from "./assets/lhtml.png";
@@ -51,7 +52,7 @@ export const projectWeb = [
   {
     title: "Movie List",
     image: movie,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan Final Project 4 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman yang lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari omdb API dan memiliki fitur search untuk mencari movie yang di inginkan pada Web ini.`,
     imageReact: lreact,
     imageTail: ltail,
     imageRedux: lredux,
@@ -64,7 +65,7 @@ export const projectWeb = [
   {
     title: "E-Commerce Front End",
     image: commerce,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan Final Project 3 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari fakestore API. Project ini memiliki beberapa halaman yang terdiri dari Login, Home, Detail, Stok, Rekap, dan Cart serta beberapa fitur yaitu login, melihat detail produk, menyimpan produk di cart(LocalStorage), menghapus produk yang ada di dalam cart.`,
     imageReact: lreact,
     imageTail: ltail,
     imageRedux: lredux,
@@ -75,9 +76,22 @@ export const projectWeb = [
   },
 
   {
+    title: "News API",
+    image: news,
+    description: `Web ini merupakan Final Project 1 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari news API. Project ini memiliki beberapa halaman yang di tampilkan berupa berita terkini indonesia, menampilkan berita seputar programming, COVID-19 dan halaman Save. Project ini mempunyai fitur News page untuk melihat lebih detail berita, Save dan Unsave berita`,
+    imageReact: lreact,
+    imageTail: ltail,
+    imageRedux: lredux,
+    techStack: "React JS, Taildwind",
+    previewLink: "https://ecommerce-project-gules.vercel.app/",
+    githubLink:
+      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/news_api_final_1",
+  },
+
+  {
     title: "Currency Rate",
     image: currency,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan assigment yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Web ini menampilkan data yang di ambil dari currencyfreaks API`,
     imageReact: lreact,
     imageCSS: lcss,
     techStack: "React JS, Tailwind",
@@ -88,7 +102,7 @@ export const projectWeb = [
   {
     title: "Database",
     image: login2,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan project berbasis PHP pertama yang saya buat. Web ini memiliki beberapa fitur yaitu login, menampilkan data tabel,  tambah data, hapus data dan mencari data tabel `,
     imagePHP: lphp,
     imageCSS: lcss,
     techStack: "PHP, CSS",
@@ -99,7 +113,7 @@ export const projectWeb = [
   {
     title: "Suit Game",
     image: suit,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan sebuah game suit yang menggunakan HTML, CSS dan Javascript`,
     imageHTML: lhtml,
     imageCSS: lcss,
     imageJS: ljs,
@@ -111,7 +125,7 @@ export const projectWeb = [
   {
     title: "Link Tree",
     image: link,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan sebuah cloning dari LinkTree untuk menampilkan social media yang ingin di lihat oleh user`,
     imageHTML: lhtml,
     imageCSS: lcss,
     imageJS: ljs,
@@ -123,7 +137,7 @@ export const projectWeb = [
   {
     title: "Web Profile",
     image: porto1,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    description: `Web ini merupakan Web profile pertama yang di buat menggunakan HTML, CSS dan Javascript `,
     imageHTML: lhtml,
     imageCSS: lcss,
     imageJS: ljs,
