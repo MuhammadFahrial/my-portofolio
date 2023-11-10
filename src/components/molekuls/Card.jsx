@@ -7,10 +7,10 @@ export default function Card({
   imageCSS,
   imageJS,
   imageReact,
+  imageRedux,
   imageTail,
   imagePHP,
   description,
-  techStack,
   previewLink,
   githubLink,
 }) {
@@ -19,23 +19,23 @@ export default function Card({
       <article className=" glass-effect overflow-hidden mt-5 border-solid border border-slate-800 stroke-white">
         <img src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">
-          <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
-            {title}
-          </h1>
-          <p className="text-content pt-4 font-light">{description}</p>
-          {/* <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-            Tech Stack : <span className="font-light">{techStack}</span>
-          </h3> */}
-          <div className="flex w-8">
-            <img src={imageHTML} alt="" />
-            <img src={imageCSS} alt="" />
-            <img src={imageJS} alt="" />
-            <img src={imageReact} alt="" />
-            <img src={imageTail} alt="" />
-            <img src={imagePHP} alt="" />
+          <div className="">
+            <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
+              {title}
+            </h1>
+            <div className="flex w-8">
+              <img src={imageHTML} alt="" />
+              <img src={imageCSS} alt="" />
+              <img src={imageJS} alt="" />
+              <img src={imageReact} alt="" />
+              <img src={imageRedux} alt="" />
+              <img src={imageTail} alt="" />
+              <img src={imagePHP} alt="" />
+            </div>
           </div>
+          <p className="text-content pt-4 font-light">{description}</p>
           <div className="flex justify-between items-center mt-5">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <svg
                 className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
                 width="20"
@@ -65,7 +65,7 @@ export default function Card({
               >
                 Live Preview
               </a>
-            </div>
+            </div> */}
             <div className="flex items-center">
               <svg
                 className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"

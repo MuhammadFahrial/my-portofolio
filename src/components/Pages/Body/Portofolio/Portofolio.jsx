@@ -3,6 +3,8 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 
 export default function Portofolio() {
   const location = useLocation();
+  const [color, setColor] = useState(false);
+
 
   return (
     <>
@@ -26,7 +28,7 @@ export default function Portofolio() {
               <div className="right-side flex gap-1 text-[12px]">
                 <NavLink
                   to="web"
-                  className=" border-solid bg-[#fdfdfd] text-[#000] px-5 py-1"
+                  className="border-solid bg-[#fdfdfd] text-[#000] px-5 py-1"
                 >
                   Web
                 </NavLink>

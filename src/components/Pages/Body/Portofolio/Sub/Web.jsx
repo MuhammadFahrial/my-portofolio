@@ -24,6 +24,7 @@ export default function Web() {
                   imageCSS,
                   imageJS,
                   imageReact,
+                  imageRedux,
                   imageTail,
                   imagePHP,
                   // description,
@@ -39,6 +40,7 @@ export default function Web() {
                     imageCSS={imageCSS}
                     imageJS={imageJS}
                     imageReact={imageReact}
+                    imageRedux={imageRedux}
                     imageTail={imageTail}
                     imagePHP={imagePHP}
                     techStack={techStack}

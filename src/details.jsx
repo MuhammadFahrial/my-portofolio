@@ -8,6 +8,8 @@ import link from "./assets/Web/link.png";
 import commerce from "./assets/Web/commerce.png";
 import database from "./assets/Web/database.png";
 import movie from "./assets/Web/movie.png";
+import currency from "./assets/Web/currency.png";
+
 // Logo
 import lhtml from "./assets/lhtml.png";
 import lcss from "./assets/lCSS3.png";
@@ -15,6 +17,7 @@ import ljs from "./assets/lJavaScript.png";
 import lphp from "./assets/lPHP.png";
 import lreact from "./assets/lReact.png";
 import ltail from "./assets/lTailwindCSS.png";
+import lredux from "./assets/IRedux.png";
 
 //Project Image Ui/Ux
 import androidapp1 from "./assets/Ui/AndroidApp.png";
@@ -46,41 +49,44 @@ import Gempa from "./assets/Motion/Gempa.mp4";
 // Export Project Web
 export const projectWeb = [
   {
-    title: "Web Profile",
-    image: porto1,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imageHTML: lhtml,
-    imageCSS: lcss,
-    imageJS: ljs,
-    techStack: "HTML, CSS, JS",
-    previewLink: "https://me-portofolio.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/me-portofolio",
-  },
-
-  {
-    title: "Web Profile",
-    image: porto2,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imageReact: lreact,
-    imageCSS: lcss,
-    techStack: "React JS",
-    previewLink: "https://react-porto.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/react-porto",
-  },
-
-  {
-    title: "Login Page",
-    image: login1,
+    title: "Movie List",
+    image: movie,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
     imageReact: lreact,
     imageTail: ltail,
+    imageRedux: lredux,
     techStack: "React JS, Tailwind",
-    previewLink: "https://login-page-react-blush.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/login-page-react",
+    previewLink: "https://movie-project-indol.vercel.app/",
+    githubLink:
+      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/omdb_api_final_4",
   },
 
   {
-    title: "Login Page",
+    title: "E-Commerce Front End",
+    image: commerce,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageTail: ltail,
+    imageRedux: lredux,
+    techStack: "React JS, Taildwind",
+    previewLink: "https://ecommerce-project-gules.vercel.app/",
+    githubLink:
+      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/fakestore_api_final_2",
+  },
+
+  {
+    title: "Currency Rate",
+    image: currency,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageReact: lreact,
+    imageCSS: lcss,
+    techStack: "React JS, Tailwind",
+    previewLink: "https://movie-project-indol.vercel.app/",
+    githubLink: "https://github.com/MuhammadFahrial/currency-rates",
+  },
+
+  {
+    title: "Database",
     image: login2,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
     imagePHP: lphp,
@@ -88,18 +94,6 @@ export const projectWeb = [
     techStack: "PHP, CSS",
     previewLink: "-",
     githubLink: "https://github.com/MuhammadFahrial/login-regis-crud-php",
-  },
-
-  {
-    title: "Link Tree",
-    image: link,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imageHTML: lhtml,
-    imageCSS: lcss,
-    imageJS: ljs,
-    techStack: "HTML, CSS, JS",
-    previewLink: "https://link-tree-eight.vercel.app/",
-    githubLink: "https://github.com/MuhammadFahrial/link-tree",
   },
 
   {
@@ -115,39 +109,61 @@ export const projectWeb = [
   },
 
   {
-    title: "E-Commerce",
-    image: commerce,
+    title: "Link Tree",
+    image: link,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imageReact: lreact,
-    imageTail: ltail,
-    techStack: "React JS, Taildwind",
-    previewLink: "https://ecommerce-project-gules.vercel.app/",
-    githubLink:
-      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/fakestore_api_final_2",
-  },
-
-  {
-    title: "Movie List",
-    image: movie,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imageReact: lreact,
-    imageTail: ltail,
-    techStack: "React JS, Tailwind",
-    previewLink: "https://movie-project-indol.vercel.app/",
-    githubLink:
-      "https://github.com/MuhammadFahrial/sib_react_005_final_project/tree/main/omdb_api_final_4",
-  },
-
-  {
-    title: "Landing Page",
-    image: database,
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
-    imagePHP: lphp,
+    imageHTML: lhtml,
     imageCSS: lcss,
-    techStack: "PHP, CSS",
-    previewLink: "-",
-    githubLink: "https://github.com/MuhammadFahrial/login-regis-crud-php",
+    imageJS: ljs,
+    techStack: "HTML, CSS, JS",
+    previewLink: "https://link-tree-eight.vercel.app/",
+    githubLink: "https://github.com/MuhammadFahrial/link-tree",
   },
+
+  {
+    title: "Web Profile",
+    image: porto1,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+    imageHTML: lhtml,
+    imageCSS: lcss,
+    imageJS: ljs,
+    techStack: "HTML, CSS, JS",
+    previewLink: "https://me-portofolio.vercel.app/",
+    githubLink: "https://github.com/MuhammadFahrial/me-portofolio",
+  },
+
+  // {
+  //   title: "Web Profile",
+  //   image: porto2,
+  //   description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+  //   imageReact: lreact,
+  //   imageCSS: lcss,
+  //   techStack: "React JS",
+  //   previewLink: "https://react-porto.vercel.app/",
+  //   githubLink: "https://github.com/MuhammadFahrial/react-porto",
+  // },
+
+  // {
+  //   title: "Login Page",
+  //   image: login1,
+  //   description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+  //   imageReact: lreact,
+  //   imageTail: ltail,
+  //   techStack: "React JS, Tailwind",
+  //   previewLink: "https://login-page-react-blush.vercel.app/",
+  //   githubLink: "https://github.com/MuhammadFahrial/login-page-react",
+  // },
+
+  // {
+  //   title: "Landing Page",
+  //   image: database,
+  //   description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sin.`,
+  //   imagePHP: lphp,
+  //   imageCSS: lcss,
+  //   techStack: "PHP, CSS",
+  //   previewLink: "-",
+  //   githubLink: "https://github.com/MuhammadFahrial/login-regis-crud-php",
+  // },
 ];
 
 // Project UI/UX
