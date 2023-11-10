@@ -27,7 +27,7 @@ export default function Web() {
                   imageRedux,
                   imageTail,
                   imagePHP,
-                  // description,
+                  description,
                   techStack,
                   previewLink,
                   githubLink,
@@ -35,7 +35,7 @@ export default function Web() {
                   <Card
                     title={title}
                     image={image}
-                    // description={description}
+                    description={description}
                     imageHTML={imageHTML}
                     imageCSS={imageCSS}
                     imageJS={imageJS}

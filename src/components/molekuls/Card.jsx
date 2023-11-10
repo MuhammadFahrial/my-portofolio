@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Card({
   title,
@@ -14,6 +14,8 @@ export default function Card({
   previewLink,
   githubLink,
 }) {
+  const [showFullDesc, setShowFullDesc] = useState(false);
+
   return (
     <>
       <article className=" glass-effect overflow-hidden mt-5 border-solid border border-slate-800 stroke-white">
@@ -33,8 +35,26 @@ export default function Card({
               <img src={imagePHP} alt="" />
             </div>
           </div>
-          <p className="text-content pt-4 font-light">{description}</p>
-          <div className="flex justify-between items-center mt-5">
+          <p className="text-content pt-4 font-light">
+            {showFullDesc ? description : description.substr(0, 100) + "... "}
+            {showFullDesc ? (
+              <button
+                onClick={() => setShowFullDesc(false)}
+                className="text-[#000000]"
+              >
+                less
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowFullDesc(true)}
+                className="text-[#000000]"
+              >
+                more
+              </button>
+            )}
+          </p>
+
+          <div className="flex justify-between items-end mt-5">
             {/* <div className="flex items-center">
               <svg
                 className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
