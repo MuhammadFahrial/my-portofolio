@@ -5,7 +5,6 @@ export default function Portofolio() {
   const location = useLocation();
   const [color, setColor] = useState(false);
 
-
   return (
     <>
       <div className="mx-[10%]">

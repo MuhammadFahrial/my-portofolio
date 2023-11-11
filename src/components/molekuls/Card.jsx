@@ -18,7 +18,7 @@ export default function Card({
 
   return (
     <>
-      <article className=" glass-effect overflow-hidden mt-5 border-solid border border-slate-800 stroke-white">
+      <article className=" glass-effect overflow-hidden mt-5">
         <img src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">
           <div className="">
@@ -86,9 +86,9 @@ export default function Card({
                 Live Preview
               </a>
             </div> */}
-            <div className="flex items-center">
+            <div className="flex items-center ">
               <svg
-                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit   stroke-white"
                 width="20"
                 height="20"
                 viewBox="0 0 20 20"
