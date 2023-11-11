@@ -80,7 +80,7 @@ export default function Contact() {
                       className="bg-[#061121] border-b p-2 outline-none text-[12px] mt-4 xl:mt-6"
                     />
                   </div>
-                  <button
+                  <button 
                     type="submit"
                     className="bg-white text-black py-2 px-4 rounded-lg"
                   >
