@@ -52,7 +52,7 @@ export const projectWeb = [
   {
     title: "Movie List",
     image: movie,
-    description: `Web ini merupakan Final Project 4 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman yang lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari omdb API dan memiliki fitur search untuk mencari movie yang di inginkan pada Web ini. `,
+    description: `Web ini merupakan Final Project 4 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan terkait logic dan teman yang lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari omdb API dan memiliki fitur search untuk mencari movie yang di inginkan pada Web ini. `,
     imageReact: lreact,
     imageTail: ltail,
     imageRedux: lredux,
@@ -65,7 +65,7 @@ export const projectWeb = [
   {
     title: "E-Commerce Front End",
     image: commerce,
-    description: `Web ini merupakan Final Project 2 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari fakestore API. Project ini memiliki beberapa halaman yang terdiri dari Login, Home, Detail, Stok, Rekap, dan Cart serta beberapa fitur yaitu login, melihat detail produk, menyimpan produk di cart(LocalStorage), menghapus produk yang ada di dalam cart. `,
+    description: `Web ini merupakan Final Project 2 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan terkait logic dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari fakestore API. Project ini memiliki beberapa halaman yang terdiri dari Login, Home, Detail, Stok, Rekap, dan Cart serta beberapa fitur yaitu login, melihat detail produk, menyimpan produk di cart(LocalStorage), menghapus produk yang ada di dalam cart. `,
     imageReact: lreact,
     imageTail: ltail,
     imageRedux: lredux,
@@ -78,7 +78,7 @@ export const projectWeb = [
   {
     title: "News API",
     image: news,
-    description: `Web ini merupakan Final Project 1 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari news API. Project ini memiliki beberapa halaman yang di tampilkan berupa berita terkini indonesia, menampilkan berita seputar programming, COVID-19 dan halaman Save. Project ini mempunyai fitur News page untuk melihat lebih detail berita, Save dan Unsave berita. `,
+    description: `Web ini merupakan Final Project 1 yang di berikan oleh HACTIV8 saat mengikuti Program Studi Indepent. Project ini merupakan hasil kerja tim yang dimana saat itu saya mejadi leader di tim ini sekaligus mengerjakan kodingan terkait logic dan teman lain mengerjakan tampilan dan laporan. Web ini menampilkan data yang di ambil dari news API. Project ini memiliki beberapa halaman yang di tampilkan berupa berita terkini indonesia, menampilkan berita seputar programming, COVID-19 dan halaman Save. Project ini mempunyai fitur News page untuk melihat lebih detail berita, Save dan Unsave berita. `,
     imageReact: lreact,
     imageTail: ltail,
     imageRedux: lredux,
