@@ -8,26 +8,26 @@ export default function Contact() {
   const [inputMessage, setInputMessage] = useState("");
 
   // fungsi untuk mengambil hasil inputan
-  const handleInputName = (event) => {
-    setInputName(event.target.value);
-  };
-  const handleInputEmail = (event) => {
-    setInputEmail(event.target.value);
-  };
-  const handleInputMessage = (event) => {
-    setInputMessage(event.target.value);
-  };
+  // const handleInputName = (event) => {
+  //   setInputName(event.target.value);
+  // };
+  // const handleInputEmail = (event) => {
+  //   setInputEmail(event.target.value);
+  // };
+  // const handleInputMessage = (event) => {
+  //   setInputMessage(event.target.value);
+  // };
 
   // fungsi untuk kondisi pda button
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    if (!inputName || !inputMessage) {
-      alert("Please fill in both the name and message fields");
-      return;
-    }
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   if (!inputName || !inputMessage) {
+  //     alert("Please fill in both the name and message fields");
+  //     return;
+  //   }
     // const whatsappUrl = `https://wa.me/6281342608949?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh,%0APerkenalkan%20Saya%20${inputName}%0A%0A${inputMessage}`;
     // window.open(whatsappUrl, "_blank");
-  };
+  // };
 
   return (
     <>
@@ -47,26 +47,35 @@ export default function Contact() {
                   Ask us anything or just say hi....
                 </p>
               </div>
+
+
               <div className="right-side flex gap-1 text-[14px]">
-                <form action="" onSubmit={handleSubmit}>
+                <form action="https://api.web3forms.com/submit" method="POST">
                   <div className="name-mail xl:flex gap-12">
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="2224a933-489f-42d7-b5cd-83c4ab9ef1e0"
+                    />
                     <input
                       type="text"
                       name="name"
                       id="name"
-                      value={inputName}
-                      onChange={handleInputName}
+                      // value={inputName}
+                      // onChange={handleInputName}
                       placeholder="Your Name"
                       className="bg-[#061121] border-b p-2 outline-none text-[12px]"
+                      required
                     />
                     <input
                       type="email"
                       name="email"
                       id="email"
-                      value={inputEmail}
-                      onChange={handleInputEmail}
+                      // value={inputEmail}
+                      // onChange={handleInputEmail}
                       placeholder="Yourmail@domain.com"
                       className="bg-[#061121] border-b p-2 outline-none text-[12px]"
+                      required
                     />
                   </div>
                   <div className="message mb-6">
@@ -74,13 +83,14 @@ export default function Contact() {
                       type="text"
                       name="message"
                       id="message"
-                      value={inputMessage}
-                      onChange={handleInputMessage}
+                      // value={inputMessage}
+                      // onChange={handleInputMessage}
                       placeholder="What do you want ......"
                       className="bg-[#061121] border-b p-2 outline-none text-[12px] mt-4 xl:mt-6"
+                      required
                     />
                   </div>
-                  <button 
+                  <button
                     type="submit"
                     className="bg-white text-black py-2 px-4 rounded-lg"
                   >
