@@ -18,7 +18,7 @@ export default function Card({
 
   return (
     <>
-      <article className=" glass-effect overflow-hidden mt-5">
+      <article className=" glass-effect overflow-hidden mt-5 xl:w-[800px] w-[550px] mr-4 ml-4">
         <img src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">
           <div className="">
@@ -36,8 +36,12 @@ export default function Card({
             </div>
           </div>
           <p className="text-content pt-4 font-light">
-            {showFullDesc ? description : description.substr(0, 100) + "... "}
-            {showFullDesc ? (
+            {showFullDesc ? description : description.substr(0, 100)}
+            {console.log()}
+
+            {description.length <= 90 ? (
+              ""
+            ) : showFullDesc ? (
               <button
                 onClick={() => setShowFullDesc(false)}
                 className="text-[#000000]"
@@ -49,13 +53,13 @@ export default function Card({
                 onClick={() => setShowFullDesc(true)}
                 className="text-[#000000]"
               >
-                more
+                ... more
               </button>
             )}
           </p>
 
           <div className="flex justify-between items-end mt-5">
-            {/* <div className="flex items-center">
+            <div className="flex items-center">
               <svg
                 className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
                 width="20"
@@ -85,7 +89,7 @@ export default function Card({
               >
                 Live Preview
               </a>
-            </div> */}
+            </div>
             <div className="flex items-center ">
               <svg
                 className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit   stroke-white"
