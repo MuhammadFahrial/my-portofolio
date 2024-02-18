@@ -82,7 +82,7 @@ export default function Navbar() {
               </div>
               <a
                 download
-                // href="https://drive.google.com/file/d/1WEZouW0L8Gg4gtCsdWzeuKiioLVVcnOB/view?usp=sharing"
+                href="https://drive.google.com/file/d/1VPtmgwYVlSTmA7oVNDNT7HOgwSdiylIh/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-black bg-[#ffffff] block mt-4 lg:inline-block lg:mt-0 hover:bg-[#00E0FF] mr-4 text-sm rounded-sm"

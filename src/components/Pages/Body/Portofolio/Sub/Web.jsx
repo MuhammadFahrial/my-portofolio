@@ -40,12 +40,12 @@ export default function Web() {
   return (
     <>
       <section>
-        <div className="flex items-center justify-between ">
-          <button onClick={prevIndex}>
+        <div className="flex items-center justify-between">
+          <button onClick={prevIndex} className="w-[32px]">
             <img src={Prev} alt="" />
           </button>
           {project[currentIndex]}
-          <button onClick={nextIndex}>
+          <button onClick={nextIndex} className="w-[32px]">
             <img src={Next} alt="" />
           </button>
         </div>
