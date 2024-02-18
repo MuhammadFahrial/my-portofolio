@@ -13,7 +13,6 @@ export default function Navbar() {
     const changeBackgroundColor = () => {
       if (window.scrollY > 10) {
         setChangeColor(true);
-        // console.log("berubah");
       } else {
         setChangeColor(false);
       }
