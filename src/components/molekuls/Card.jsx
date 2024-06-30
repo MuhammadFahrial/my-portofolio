@@ -18,6 +18,8 @@ export default function Card({
 
   return (
     <>
+      
+
       <article className=" glass-effect overflow-hidden mt-5 xl:w-[800px] w-[550px] mr-4 ml-4">
         <img src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">

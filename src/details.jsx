@@ -142,7 +142,7 @@ export const projectWeb = [
     imageCSS: lcss,
     imageJS: ljs,
     techStack: "HTML, CSS, JS",
-    previewLink: "/",
+    previewLink: "",
     githubLink: "https://github.com/MuhammadFahrial/me-portofolio",
   },
 
